@@ -161,4 +161,7 @@ html {
     nav {
       padding-right: 30px;
     }
+    .logo img {
+        width: 100px;
+    }
 }
