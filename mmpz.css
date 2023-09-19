@@ -155,4 +155,10 @@ html {
     .w3-col {
       width: 300px;
     }
+    .j{
+      margin-right: 20px;
+    }
+    nav {
+      padding-right: 30px;
+    }
 }
