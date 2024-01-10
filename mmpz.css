@@ -54,6 +54,7 @@ li  :hover {
 body {
     background-image: url("other/bg.jpg");
     background-size: contain;
+    width: 100%;
     
 }
 
@@ -151,6 +152,8 @@ html {
   box-sizing: border-box;
 }
 
+
+
 @media (max-width: 600px) {
     .w3-col {
       width: 300px;
@@ -164,4 +167,5 @@ html {
     .logo img {
         width: 100px;
     }
+
 }

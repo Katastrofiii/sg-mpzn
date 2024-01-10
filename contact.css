@@ -10,7 +10,7 @@ body {
     font-size: 14px;
 }
 .container {
-    width: 70%;
+    width: 100%;
 
 }
 h1 {
@@ -113,5 +113,26 @@ tr td {
 nav {
     width: 100%;
     overflow: auto;
+}
+
+@media (max-width: 600px) {
+    .tablee {
+        font-size: 5px;
+        width: 50px;
+    }
+    .contact-right {
+        width: 80px;
+    }
+    tr td :first-child {
+        padding-right: 20px;
+    }
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 10px;
+        border-radius: 20px;
+
+    }
+
 }
 
