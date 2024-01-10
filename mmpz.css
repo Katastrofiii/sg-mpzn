@@ -52,8 +52,10 @@ li  :hover {
 
 
 body {
-    background-image: url("other/bg.jpg");
+  background: rgb(9,9,9);
+  background: linear-gradient(90deg, rgba(9,9,9,1) 0%, rgba(107,102,102,1) 50%, rgba(9,9,9,1) 100%);
     background-size: contain;
+    ;
     width: 100%;
     
 }
