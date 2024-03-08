@@ -160,7 +160,37 @@ html {
   box-sizing: border-box;
 }
 
+.abouttt {
+  display: flex;
+}
 
+.w3-third{
+  flex-basis: 30%;
+}
+
+.about_us {
+  flex-basis: 70%;
+  float: right;
+  right: 300px;
+  background-color: black;
+  height: 550px;
+  width: 700px;
+  font-size: 1.3rem;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  color: white;
+  
+  
+}
+
+.about_us h1 {
+  font-weight: 600;
+  color: white;
+}
+
+.w3-container {
+  color: white;
+}
 
 @media (max-width: 600px) {
     .w3-col {
@@ -174,6 +204,19 @@ html {
     }
     .logo img {
         width: 100px;
+    }
+
+    .w3-row-padding {
+      display: grid;
+      grid-column: auto;
+    }
+
+    .about_us {
+      width: auto;
+      font-size: 1rem;
+    }
+    .w3-third {
+      width: auto;
     }
 
 }
